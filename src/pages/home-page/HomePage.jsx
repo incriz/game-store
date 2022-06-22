@@ -1,10 +1,16 @@
 import React from 'react'
 import { GameItem } from '../../components/game-item'
+import img1 from '../../img/forza_5.jpeg'
+import img2 from '../../img/battlefield_2042.jpg'
+import img3 from '../../img/life_is_strange_true_colors.jpeg'
+import img4 from '../../img/gta_v.jpeg'
+import img5 from '../../img/rainbow_siege.jpeg'
+import img6 from '../../img/assassins_creed_valhalla.png'
 import './home-page.css'
 
 const GAMES = [
     {
-        image: '/game-covers/forza_5.jpeg',
+        image: img1,
         title: 'Forza Horizon 5',
         genres: ['Гонки', 'Симулятор', 'Открытый мир'],
         price: 2343,
@@ -13,7 +19,7 @@ const GAMES = [
         description: "Вас ждёт бесконечный калейдоскоп приключений Horizon! Совершайте увлекательные поездки по невероятно красивому и самобытному миру Мексики за рулём величайших автомобилей в истории. Начните своё приключение Horizon уже сегодня, добавив игру в свой список желаний!",
     },
     {
-        image: '/game-covers/battlefield_2042.jpg',
+        image: img2,
         title: 'Battlefield 2042',
         genres: ['Экшен', 'Шутер', 'Война'],
         video: 'https://www.youtube.com/embed/ASzOzrB-a9E',
@@ -22,7 +28,7 @@ const GAMES = [
         description: 'Battlefield™ 2042 — это шутер от первого лица, в котором серия возвращается к легендарным масштабным сражениям. В будущем, где царит хаос, адаптируйтесь и процветайте на постоянно меняющихся полях боя благодаря своему отряду и арсеналу новейших технологий.'
     },
     {
-        image: '/game-covers/life_is_strange_true_colors.jpeg',
+        image: img3,
         title: 'Life is Strange True Colors',
         genres: ['Глубокий сюжет', 'Протагонистка'],
         video: 'https://www.youtube.com/embed/b6CkzwVAr0M',
@@ -31,7 +37,7 @@ const GAMES = [
         description: 'Алекс Чэнь от всех скрывает своё «проклятие» — сверхъестественную способность считывать сильные эмоции других и влиять на них. Но когда её брат погибает — якобы в результате несчастного случая, — Алекс использует её, чтобы узнать правду.'
     },
     {
-        image: '/game-covers/gta_v.jpeg',
+        image: img4,
         title: 'Grand Theft Auto V',
         genres: ['Открытый мир', 'Экшен'],
         video: 'https://www.youtube.com/embed/QkkoHAzjnUs',
@@ -40,7 +46,7 @@ const GAMES = [
         description: 'Grand Theft Auto V для PC позволяет игрокам исследовать знаменитый мир Лос-Сантоса и округа Блэйн в разрешении до 4k и выше с частотой 60 кадров в секунду.'
     },
     {
-        image: '/game-covers/rainbow_siege.jpeg',
+        image: img5,
         title: 'Tom Clancy\'s Rainbow Six® Siege',
         video: 'https://www.youtube.com/embed/6wlvYh0h63k',
         genres: ['Тактика', 'Шутер'],
@@ -49,7 +55,7 @@ const GAMES = [
         description: 'Tom Clancy\'s Rainbow Six Осада – это продолжение нашумевшего шутера от первого лица, разработанного студией Ubisoft Montreal.'
     },
     {
-        image: '/game-covers/assassins_creed_valhalla.png',
+        image: img6,
         title: 'Assassin’s Creed Valhalla',
         genres: ['Паркур', 'РПГ', 'Открытый мир'],
         video: 'https://www.youtube.com/embed/ssrNcwxALS4',

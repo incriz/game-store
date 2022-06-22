@@ -10,3 +10,19 @@
     display: flex;
     align-items: center;
 }
+
+.cart-item__price > span{
+    margin-right: 5px;
+}
+
+.cart-item__delete-icon{
+    margin-left: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 420px) {
+    .cart-item__delete-icon{
+        padding-top: 3px;
+    }
+}
